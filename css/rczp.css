@@ -1,0 +1,131 @@
+body {
+	background-color: #ccc;
+  }
+
+/*这里是header和抬头。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。*/
+.header{
+font-size: 30px;
+background: white;
+text-align: center;
+}
+
+.logo{  
+  justify-content: center;
+  align-content: center;
+
+}
+
+.logo img{
+  width: auto;
+  height: 88%;
+}
+
+
+/*t这里是导航条。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #334;
+}
+
+li {
+  display: inline;
+  float: left;
+  border-right:0.5px solid darkgrey;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 50px;
+  text-decoration: none;
+}
+
+li a:hover:not(.highlight) {
+  background-color: grey;
+}
+
+.highlight {
+  background-color: seagreen;
+}
+
+
+
+
+
+/*招聘分区的盒子的css。。。。。。。。。。。。。。。。。。。。。。。。。*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  border: 30px;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+
+  color: red;
+  
+}
+
+
+/*.....左右分区。。。。。*/
+
+.c {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.r:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+

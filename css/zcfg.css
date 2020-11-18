@@ -1,0 +1,74 @@
+body {
+	background-color: #ccc;
+  }
+
+/*这里是header和抬头。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。*/
+.header{
+font-size: 30px;
+background: white;
+text-align: center;
+}
+
+.logo{  
+  justify-content: center;
+  align-content: center;
+
+}
+
+.logo img{
+  width: auto;
+  height: 88%;
+}
+
+
+/*t这里是导航条。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #334;
+}
+
+li {
+  display: inline;
+  float: left;
+  border-right:0.5px solid darkgrey;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 50px;
+  text-decoration: none;
+}
+
+li a:hover:not(.highlight) {
+  background-color: grey;
+}
+
+.highlight {
+  background-color: seagreen;
+}
+
+
+
+/*首页分区。。。。。。。。。。。。。。。。。。。。。。。。。。。。。**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
