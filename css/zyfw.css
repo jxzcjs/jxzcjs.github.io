@@ -50,7 +50,7 @@ li a:hover:not(.highlight) {
 }
 
 .highlight {
-  background-color: seagreen;
+  background-color: #0E4F15;
 }
 
 
@@ -64,7 +64,7 @@ body {font-family: "Lato", sans-serif;}
 .tab {
   float: left;
   border: 0px solid #ccc;
-  background-color: #ccc;
+  background-color: #aaa;
   width: 10%;
   height: 250px;
 }
@@ -90,7 +90,7 @@ body {font-family: "Lato", sans-serif;}
 
 /* Create an active/current "tab button" class */
 .tab button.active {
-  background-color: seagreen;
+  background-color: #0E4F15;
 }
 
 /* Style the tab content */
